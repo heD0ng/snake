@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{ width:1300px; height:600px;}
+body{
+	position:relative
+}
+#app{
+	font-size: 30px;
+	color: seagreen;
+	margin-top: 20px;
+	margin-left: 600px;
+}
+#app div{
+	float: left;
+	margin-bottom: 20px;
+}
+#Score{
+	float: left;
+	font-weight: bolder;
+	margin-left: 10px;
+}
+#map{
+    position:absolute;
+	left:0;right:0; top:0; bottom:0;
+	margin:80px auto;
+	border:1px solid #000;
+	font-size: 0;
+}
+span{
+	display: inline-block;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+.snake{
+    background: blue;
+}
+.food{
+    background:red;
+}

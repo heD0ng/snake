@@ -95,7 +95,7 @@ function move() {
     // console.log(snake);
     snake.push(head)
     // snake中有3个span标签
-    // console.log(snake);
+    console.log(snake);
     if (head.className == 'food') {
         s = s + 1
         score.innerHTML = s
